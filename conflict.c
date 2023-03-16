@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-// save two lines
+// save three lines
     printf("conflict code! feature-1");
     printf("conflict code! main-");
+    printf("conflict code! main-2");
+
 }
