@@ -1,4 +1,5 @@
 # Learn-to-git
+## brief git commands overview
 "git clone" clones the repo from cloud to your local machine
 "git status" will show you changed files and files that are staged for commit
 "git commit" will commit changes in your local git repo
@@ -13,4 +14,17 @@ before you can commit any changes, you have to identify yourself
 before you can push changes into github you have to generate an ssh key, load public version on github
 and add this ssh key to your ssh-agent
 now I will use git push <repo> with the branch to commit to and keyword 'origin'
-## Subheader
+## Setting up a local git repo and pushing it to Github
+To create a local git repo you cd into folder and write there git init.
+As usual, you go through process of adding new files and commiting them.
+Then you'll need to push it to github somehow.
+You can do that either by creating a new repo on the site itself or by using a 'gh'.
+'gh' is a Github CLI application for managing github repositories.
+After you've created a repo, you need to connect to that repo.
+'git remote add <name> <link_to_repo>' will connect you to that repo.
+Usually you will give origin to the name if it's the first link.
+To remove the connection, you need to write 'git remote remove <name>'
+You've added the remote connection.
+To push to the github repo, you'd write 'git push -u origin <branch_name>'
+'-u' specifies that we'll upload to origin by default.
+You've pushed your commit to github! Congrats!
