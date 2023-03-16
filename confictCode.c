@@ -1,5 +1,5 @@
 #include <stdio.h>
 
 int main() {
-    printf("git conflict!");
+    printf("git conflict! main branch");
 }
