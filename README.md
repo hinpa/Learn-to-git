@@ -27,4 +27,4 @@ To remove the connection, you need to write 'git remote remove <name>'
 You've added the remote connection.
 To push to the github repo, you'd write 'git push -u origin <branch_name>'
 '-u' specifies that we'll upload to origin by default.
-You've pushed your commit to github! Congrats!
+You've pushed your commit to github! Congrats! (my example is Learn-how-to-git-partII)
