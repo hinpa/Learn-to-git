@@ -12,4 +12,5 @@ before you can commit any changes, you have to identify yourself
 "git config --global user.name <name>"
 before you can push changes into github you have to generate an ssh key, load public version on github
 and add this ssh key to your ssh-agent
+now I will use git push <repo> with the branch to commit to and keyword 'origin'
 ## Subheader
